@@ -4,6 +4,8 @@
 
 public class exercicio04aula01 {
     public static void main(String[] args) {
-
+        double salMin = 1320;
+        double salUsu = 2300;
+        System.out.print(salUsu / salMin);
     }
 }
