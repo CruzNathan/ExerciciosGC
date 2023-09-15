@@ -6,8 +6,16 @@
 //Se tiver mais de 65, avisar que também é facultativo o voto;
 //De 18 até 65, é obrigatório votar.
 
-public class exercicio06aula01 {
+import java.util.Scanner;public class exercicio06aula01 {
     public static void main(String[] args) {
+        int idade = 18;
 
+        if (idade < 16){
+            System.out.print("Não pode votar");
+        } else if (idade == 16 || idade == 17 || idade > 65) {
+            System.out.print("O voto é facultativo");
+        } else {
+            System.out.print("Voto obrigatório");
+        }
     }
 }
