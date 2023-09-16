@@ -20,7 +20,7 @@ public class exercicio13aula01 {
             c--;
         }
         s += c;
-        
+
         System.out.print(s +" = "+ f);
     }
 }
