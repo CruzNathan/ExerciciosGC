@@ -32,7 +32,7 @@ public class exercicio04aula02 {
             case 2 -> num1 - num2;
             case 3 -> num1 * num2;
             case 4 -> num1 / num2;
-            case 5 -> 
+            default -> 0;
         }
     }
 }
