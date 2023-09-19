@@ -10,8 +10,8 @@ public class exercicio04aula02 {
         Scanner input1 = new Scanner(System.in);
         System.out.println("Digite o segundo número: ");
         Scanner input2 = new Scanner(System.in);
-        double num1 = input1.nextDouble();
-        double num2 = input2.nextDouble();
+        int num1 = input1.nextInt();
+        int num2 = input2.nextInt();
 
 
         System.out.print("##--Qual operação deseja realizar?--##\n");
@@ -26,5 +26,13 @@ public class exercicio04aula02 {
         Scanner menu = new Scanner(System.in);
 
         int opcao = menu.nextInt();
+
+        double result = switch (opcao) {
+            case 1 -> num1 + num2;
+            case 2 -> num1 - num2;
+            case 3 -> num1 * num2;
+            case 4 -> num1 / num2;
+            case 5 -> 
+        }
     }
 }
