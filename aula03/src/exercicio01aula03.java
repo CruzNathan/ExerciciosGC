@@ -13,7 +13,7 @@ public class exercicio01aula03 {
         if (this.saldo >= valor) {
             this.saldo = this.saldo - valor;
         } else {
-            System.out.println("Erro: Saldo insuficiente")
+            System.out.println("Erro: Saldo insuficiente");
         }
     }
 }
