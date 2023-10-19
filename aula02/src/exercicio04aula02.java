@@ -34,5 +34,6 @@ public class exercicio04aula02 {
             case 4 -> num1 / num2;
             default -> 0;
         };
+        System.out.println(result);
     }
 }
